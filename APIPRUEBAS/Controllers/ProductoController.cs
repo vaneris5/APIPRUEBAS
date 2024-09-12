@@ -64,6 +64,7 @@ namespace APIPRUEBAS.Controllers
 
 		[HttpPost]
 		[Route ("Guardar")]
+		//Guardar
 
 		public IActionResult Guardar([FromBody] Producto objeto){
 			try
